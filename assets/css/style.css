@@ -1,0 +1,132 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+}
+body,a {
+	font-family: 'Roboto', sans-serif;
+	font-size:17px;
+	line-height:1.7;
+	color:#000;
+	font-weight:300;
+	text-decoration:none;
+}
+a:hover { text-decoration: none; }
+
+
+.service-box-bg1{
+	background-image:url(../images/1.jpg);
+	}
+	.service-box-bg2{
+	background-image:url(../images/2.jpg);
+	}
+	.service-box-bg3{
+	background-image:url(../images/3.jpg);
+	}
+	
+.section-padding {
+    padding: 50px 0;
+}
+
+.section-heading {
+    margin-bottom: 70px;
+}
+
+.section-heading h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+.single-service-box {
+    border: 1px solid #eee;
+    text-align: center;
+    padding-bottom: 30px;
+	transition:.3s;
+}
+
+.service-box {
+    background-color:#eee;
+    height: 200px;
+    position: relative;
+	background-position: center center;
+    background-size: cover;
+}
+
+.service-box h2 {
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    background-color: red;
+    padding: 10px;
+    left: 8%;
+    width: 84%;
+    bottom: -18px;
+    margin: 0;
+}
+
+.service-box-content {
+
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.service-box-content
+ p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+	font-weight: 400;
+  
+
+}
+a.service-box-btn {
+    display: inline-block;
+	color: #333;
+    font-weight: 600;
+}
+.single-service-box:hover {
+    box-shadow: 0px 3px 6px #eee;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
